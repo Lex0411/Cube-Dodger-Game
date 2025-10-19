@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Block Dodger</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div id="ui">
+        <div id="score">Score: 0</div>
+        <div id="pauseHint">P&nbsp;to&nbsp;Pause</div>
+    </div>
+    <div id="gameOver" class="hidden">
+        <h1>GAME OVER</h1>
+        <p>Final Score: <span id="finalScore">0</span></p>
+        <button id="restart">Play Again</button>
+    </div>
+    <div id="controls">
+        <p>Move: A/D or ←/→ | Pause: P | Fullscreen: F11</p>
+    </div>
+    <canvas class="webgl"></canvas>
+    
+    <script src="src/renderer.js"></script>
+</body>
+</html>

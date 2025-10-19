@@ -1,0 +1,22 @@
+{
+  "name": "falling-block-dodger",
+  "version": "1.0.0",
+  "description": "A 3D falling block dodger game with Three.js and Electron",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "electron": "^22.0.0",
+    "three": "^0.158.0",
+    "lil-gui": "^0.19.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  },
+  "author": "Cabase, Albaciete, Sayahan",
+  "license": "MIT"
+}
